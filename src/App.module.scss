@@ -1,0 +1,153 @@
+// COLOR PALETTE
+// #333F1D - dark green - background
+// #E6E6E6 - light grey -
+// #F2EBE2 - light beige - title
+// #5B5861 - dark grey - text
+// #E9CCBE - beige - list background
+
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .Title {
+    color: #f2ebe2;
+    font-family: Archivo, sans-serif;
+    margin-top: 12vh;
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+.Container {
+  display: column;
+  align-items: center;
+  border: solid 2px #333f1d;
+  background-color: #333f1d;
+  border-radius: 10px;
+
+  .EditContainer {
+    display: flex;
+    margin: 10px;
+    .List {
+      color: #f2ebe2;
+      font-family: Archivo, sans-serif;
+      text-transform: uppercase;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    button {
+      background-color: #f2ebe2;
+      border-radius: 10px;
+      border: none;
+      color: #333f1d;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+    input {
+      border-radius: 15px;
+      border: none;
+      background-color: #f2ebe2;
+    }
+  }
+}
+
+.GuestContainer {
+  display: inline-block;
+  align-items: center;
+  border: 20px #333f1d;
+  border-radius: 10px;
+  background-color: #f2ebe2;
+  margin-top: 20px;
+
+  .GuestContainerCard {
+    align-items: center;
+  }
+  .GuestList {
+    // COSMETIC CHANGES
+    color: #333f1d;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-right: 25px;
+    text-align: center;
+  }
+
+  .GuestListName {
+    color: #f2ebe2;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #333f1d;
+    background-color: #333f1d;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  button {
+    // COSMETIC CHANGES
+    background-color: #333f1d;
+    border: none;
+    color: #f2ebe2;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.AttendingContainer {
+  display: inline-block;
+  align-items: center;
+  border: 20px #333f1d;
+  border-radius: 10px;
+  background-color: #f2ebe2;
+  margin-top: 20px;
+
+  .AttendingContainerCard,
+  .NotAttendingContainerCard {
+    align-items: center;
+  }
+  .AttendingList,
+  .NotAttendingList {
+    color: #333f1d;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-right: 25px;
+    text-align: center;
+    padding-left: 25px;
+  }
+
+  h2 {
+    color: #333f1d;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Archivo, sans-serif;
+    text-decoration: underline;
+  }
+
+  .AttendingName .NotAttendingName {
+    color: #f2ebe2;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    border: 5px solid #333f1d;
+    background-color: #333f1d;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+}

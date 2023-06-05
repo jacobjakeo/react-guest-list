@@ -1,4 +1,5 @@
 import './index.css';
+import './fonts/Archivo.ttf';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
